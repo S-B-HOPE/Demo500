@@ -16,7 +16,7 @@ public class StudentController {
 	@PostMapping("addStudent")
 	String addStudent(@RequestBody Student s) {
 
-		return ss.saveStudentInDb(s);
+		return ss.saveStudentInDbbbbb(s);
 
 	}
 
